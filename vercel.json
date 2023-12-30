@@ -1,8 +1,23 @@
-{
-  "routes": [
-    {
-      "src": "/json/stats.json",
-      "dest": "https://ssr.rs/json/stats.json"
-    }
-  ]
+{"routes": [
+        {
+            "src": "/report",
+            "dest": "http://stat.111311.xyz/report"
+        },
+        {
+            "src": "/json/stats.json",
+            "dest": "http://stat.111311.xyz/json/stats.json"
+        },
+        {
+            "src": "/detail",
+            "dest": "http://stat.111311.xyz/detail"
+        },
+        {
+            "src": "/map",
+            "dest": "http://stat.111311.xyz/map"
+        },
+        {
+            "src": "/i",
+            "dest": "http://stat.111311.xyz/i"
+        }
+    ]
 }
